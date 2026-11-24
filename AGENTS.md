@@ -28,3 +28,8 @@ You are working only on the YAVUZYİĞİT AI Emlak Prodüksiyon Stüdyosu reposi
 - Add/update documentation when architecture or behavior changes.
 - Do not add a dependency until its maintenance, license, and operational requirements are reviewed.
 - Make small, reviewable changes and report changed files, tests run, and known limitations.
+
+
+## Video production rules
+
+Before implementing or rendering any property video, read and follow `docs/PRODUCTION_RULES.md`. These rules are binding: preserve source parcel geometry and verified facts, label illustrative AI scenes, apply pre-render and post-render quality gates, and never claim a render is publish-ready if a critical check fails.
