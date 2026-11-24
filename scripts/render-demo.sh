@@ -29,11 +29,11 @@ render_scene() {
     -an -c:v libx264 -preset veryfast -crf 22 -movflags +faststart "$frame"
 }
 
-render_scene 01 "ARSA\nHIKAYESI" "Her iyi proje, doğru konumla başlar." "0xc9a66b"
-render_scene 02 "KONUMU\nKESFET" "Çevre ve ulaşım bilgileri kaynakla doğrulanır." "0x6a9fb5"
-render_scene 03 "HAYALINI\nTASARLA" "Mimari konsept görselleri temsili olarak sunulur." "0x9a866c"
-render_scene 04 "DETAYLAR\nONEMLIDIR" "Ölçü, tapu ve imar bilgisi belgeye dayanır." "0x7b9b83"
-render_scene 05 "YAVUZYIGIT\nGAYRIMENKUL" "Önce doğruluk. Sonra sinema." "0xc9a66b"
+render_scene 01 "ARSA\nHİKÂYESİ" "Her iyi proje, doğru konumla başlar." "0xc9a66b"
+render_scene 02 "KONUMU\nKEŞFET" "Çevre ve ulaşım bilgileri kaynakla doğrulanır." "0x6a9fb5"
+render_scene 03 "HAYALİNİ\nTASARLA" "Mimari konsept görselleri temsili olarak sunulur." "0x9a866c"
+render_scene 04 "DETAYLAR\nÖNEMLİDİR" "Ölçü, tapu ve imar bilgisi belgeye dayanır." "0x7b9b83"
+render_scene 05 "YAVUZYİĞİT\nGAYRİMENKUL" "Önce doğruluk. Sonra sinema." "0xc9a66b"
 
 ffmpeg -hide_banner -loglevel error -y \
   -i output/.frames/scene-01.mp4 -i output/.frames/scene-02.mp4 \
