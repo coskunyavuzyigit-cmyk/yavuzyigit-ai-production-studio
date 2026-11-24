@@ -42,7 +42,7 @@ export default function Home() {
             <span className="pill">AI REAL ESTATE PRODUCTION</span>
             <h2>Gayrimenkul hikâyelerini<br /><em>sinematik</em> anlat.</h2>
             <p>Arsa, villa ve konut projeleri için senaryodan son videoya kadar kontrollü bir prodüksiyon hattı.</p>
-            <a className="primary-link" href="#workflow">Üretim planını incele <span>→</span></a>
+            <a className="primary-link" href="/projects/new">Yeni prodüksiyon projesi oluştur <span>→</span></a>
           </div>
           <div className="hero-art" aria-hidden="true">
             <div className="orbit orbit-one" /><div className="orbit orbit-two" />
