@@ -46,3 +46,29 @@ Bu belge YAVUZYİĞİT AI Emlak Prodüksiyon Stüdyosu için seçilen, değerlen
 ## Lisans ilkesi
 
 Stüdyo uygulamasının kendi lisansı ile kullandığı araçların lisansları birbirinden ayrıdır. GPL/AGPL bileşenlerini uygulama içine bağlamadan önce dağıtım biçimi ve türev eser etkisi hukukî/teknik olarak incelenir. Bağımsız CLI/worker süreçleri kullanmak lisans yükümlülüklerini otomatik olarak ortadan kaldırmaz.
+
+
+## Kısa animasyon ve karakter stüdyosu
+
+| Katman | Depo / kaynak | Lisans bilgisi | Karar |
+|---|---|---|---|
+| İnsan karakter üretimi | https://github.com/makehumancommunity/mpfb2 | Kod GPL-3.0; MPFB'nin paketlenmiş temel varlıkları CC0 1.0; harici asset pack'ler ayrı kontrol | Mert ve Duru'nun özgün 3B taban modellerini üretmek için ana aday |
+| Karakter rig | https://projects.blender.org/Mets/CloudRig | GPL-3.0-or-later (Blender Extensions kaydı) | Blender Studio'nun rig üretim eklentisi; Blender sürümü uyumluluğu test edilmeli |
+| Eğitim/test karakteri | https://studio.blender.org/characters/rain/v3/ | CC-BY | Rig/animasyon hattını sınamak için; atıf zorunlu, final ana karakteri olmak zorunda değil |
+| 2B geleneksel animasyon | https://github.com/opentoonz/opentoonz | BSD-3-Clause | El çizimi/cut-out 2B kısa film alternatifi |
+| Vektör/bone 2B | https://github.com/synfig/synfig | GPL-3.0 | İki boyutlu rig ve tween animasyon alternatifi |
+| Dijital çizim ve frame-by-frame | https://github.com/KDE/krita | GPL-3.0 | Karakter konsepti, storyboard çizimleri ve 2B kare animasyon |
+| Animasyon prodüksiyon takibi | https://github.com/cgwire/kitsu | AGPL-3.0 | İleride görev, shot, review ve teslim takibi; ilk MVP'de kurulum zorunlu değil |
+| AI karakter hareketi | https://github.com/Comfy-Org/workflow_templates | Workflow dosyaları; kullanılan model/düğüm lisansları ayrıca | Resmî Wan Animate iş akışları için başlangıç |
+| Video birleştirme düğümleri | https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite | GPL-3.0 (depo lisansını kurulumda yeniden doğrula) | ComfyUI video frame/clip işlemleri |
+| Poz/yüz ön işleme | https://github.com/Fannovel16/comfyui_controlnet_aux | Lisans ve alt model dosyaları ayrıca denetlenmeli | Wan Animate v1 gibi akışlarda pose/face preprocessing |
+| Kimlik/referans koşullama | https://github.com/cubiq/ComfyUI_IPAdapter_plus | GPL-3.0 (depo lisansını kurulumda yeniden doğrula); IP-Adapter ağırlıkları ayrı | Alternatif karakter tutarlılığı testleri; Wan Animate için her zaman gerekli değil |
+| Yardımcı ComfyUI düğümleri | https://github.com/kijai/ComfyUI-KJNodes | Lisans/bağımlılık kontrolü gerekli | Yalnızca seçilen workflow açıkça gerektirirse |
+
+### Karakter üretim kararı
+- Mert ve Duru, MPFB ile başlangıç mesh'i oluşturulup Blender'da özgün yüz, saç, kıyafet ve materyal tasarımıyla ayrıştırılacak.
+- MPFB kod lisansı ile temel asset lisansı birbirinden farklıdır: kod GPL-3.0, MPFB paketlenmiş temel grafik asset'leri CC0 1.0 olarak tanımlanmıştır. Harici asset pack'ler otomatik CC0 varsayılmaz.
+- CloudRig GPL-3.0-or-later eklentidir. Proje dağıtım biçimi ve bağımlılık kullanımı lisans kontrolüne tabidir.
+- Rain v3 CC-BY eğitim rig'i için atıf korunur.
+- AI video tarafında Wan Animate resmi ComfyUI workflow'u ilk araştırma/test adayıdır. Model ağırlıklarının lisansı, VRAM ihtiyacı ve ticari kullanım şartları ayrıca kontrol edilmeden müşteri videosunda kullanılmaz.
+- Kitsu AGPL-3.0 olduğu için stüdyonun kendi kapalı/özel uygulamasına kod gömülmez; ayrı servis olarak kurulması ve AGPL yükümlülükleri hukukî/teknik incelemeye tabidir.
