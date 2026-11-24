@@ -137,3 +137,12 @@ Video, doğruluk kontrollerinden geçmeden "tamamlandı/yayına hazır" sayılma
 - `.opencode/skills/video-quality-gate/SKILL.md`: render öncesi/sonrası bloklayıcı kalite kontrolleri.
 
 Açık kaynak araç seçimi ve lisans envanteri için `docs/OPEN_SOURCE_TOOLCHAIN.md` okunmalıdır. Bu dosyalarda aday olarak belirtilen bir araç, sürüm/lisans/çıktı testi tamamlanmadan üretimde varsayılan kabul edilmez.
+
+## 11. Kısa animasyon film üretimi
+Kısa animasyon içerikleri için `docs/SHORT_FILM_STUDIO.md` ve aşağıdaki OpenCode skills bağlayıcıdır:
+- `.opencode/skills/character-bible/SKILL.md`
+- `.opencode/skills/short-animation-director/SKILL.md`
+- `.opencode/skills/blender-character-pipeline/SKILL.md`
+- `.opencode/skills/ai-character-animation/SKILL.md`
+
+İki ana özgün karakter Mert ve Duru'dur. Karakter kimlikleri, sesleri ve kıyafetleri süreklilik dosyası olmadan sahneler arasında değiştirilemez. Gerçek ilan tanıtımları ile kurgusal animasyon kısa filmleri ayrı içerik türleridir. AI video ham çekimdir; karakter tutarlılığı ve anatomi QA olmadan final kabul edilmez.
