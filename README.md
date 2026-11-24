@@ -66,3 +66,16 @@ FFmpeg ile 30 saniyelik, 1080×1920 dikey tipografik demo MP4 üretildi ve yerel
 ## Durum
 
 Proje brief/storyboard ekranı, ilk FFmpeg render betiği ve GitHub Actions doğrulama akışı eklendi. Next.js CI build sonucu henüz doğrulanmadı; gerçek ilan görselleri, Blender sahneleri, ses ve tam prodüksiyon hattı sıradaki işlerdir.
+
+## Kısa animasyon ve karakter stüdyosu
+
+Stüdyo ayrıca iki özgün, devamlı karakterle kısa animasyon filmleri üretecek:
+- **Mert:** saha ve emlak uzmanı
+- **Duru:** mimar ve tasarım anlatıcısı
+
+Karakter kimliği, senaryo, Blender rig, AI animasyon ve kalite kontrol süreçleri:
+- [Kısa Film Stüdyosu](docs/SHORT_FILM_STUDIO.md)
+- [Açık Kaynak Araç Zinciri ve Depolar](docs/OPEN_SOURCE_TOOLCHAIN.md)
+- [OpenCode Skills](.opencode/skills/)
+
+İlk karakter üretim adayı MPFB2 + Blender + CloudRig; AI destekli hareket için resmi ComfyUI Wan Animate workflow'u yalnızca deneysel adaptördür. Model/asset lisansları ve donanım gereksinimleri doğrulanmadan üretim bağımlılığı yapılmaz.
