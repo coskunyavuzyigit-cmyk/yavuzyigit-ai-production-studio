@@ -55,6 +55,10 @@ Aday araçlar, lisanslar, bakım durumu, donanım gereksinimleri ve entegrasyon 
 - Kullanıcı yüklemeleri tür, boyut ve erişim kontrollerinden geçirilir.
 - Güvenlik bildirimi için [SECURITY.md](SECURITY.md) dosyasına bakın.
 
+## Prodüksiyon kuralları
+
+Bağlayıcı doğruluk, video türleri, kurgu, ses ve kalite kontrol kuralları: [docs/PRODUCTION_RULES.md](docs/PRODUCTION_RULES.md).
+
 ## İlk demo render
 
 FFmpeg ile 30 saniyelik, 1080×1920 dikey tipografik demo MP4 üretildi ve yerel olarak doğrulandı. Bu, gerçek ilan videosu değil; ilk render hattının teknik prototipidir. Ayrıntı: [docs/DEMO_RENDER.md](docs/DEMO_RENDER.md).
