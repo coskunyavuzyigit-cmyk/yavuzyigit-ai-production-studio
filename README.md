@@ -55,6 +55,10 @@ Aday araçlar, lisanslar, bakım durumu, donanım gereksinimleri ve entegrasyon 
 - Kullanıcı yüklemeleri tür, boyut ve erişim kontrollerinden geçirilir.
 - Güvenlik bildirimi için [SECURITY.md](SECURITY.md) dosyasına bakın.
 
+## İlk demo render
+
+FFmpeg ile 30 saniyelik, 1080×1920 dikey tipografik demo MP4 üretildi ve yerel olarak doğrulandı. Bu, gerçek ilan videosu değil; ilk render hattının teknik prototipidir. Ayrıntı: [docs/DEMO_RENDER.md](docs/DEMO_RENDER.md).
+
 ## Durum
 
-Şu an temel proje belgeleri ve mimari kararlar hazırlanıyor. Henüz çalışan uygulama veya render altyapısı kurulduğu iddia edilmemektedir.
+Proje brief/storyboard ekranı, ilk FFmpeg render betiği ve GitHub Actions doğrulama akışı eklendi. Next.js CI build sonucu henüz doğrulanmadı; gerçek ilan görselleri, Blender sahneleri, ses ve tam prodüksiyon hattı sıradaki işlerdir.
