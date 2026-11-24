@@ -127,3 +127,13 @@ Her üretim işi şu teslimleri içerir:
 5. Varsa temsili görselleştirme uyarıları
 
 Video, doğruluk kontrollerinden geçmeden "tamamlandı/yayına hazır" sayılmaz.
+
+## 10. OpenCode uzmanlık becerileri (Skills)
+
+Üretim ajanı ilgili görevde aşağıdaki proje içi becerileri yüklemeli ve uygulamalıdır:
+- `.opencode/skills/parcel-visualization/SKILL.md`: GeoJSON/CRS doğrulama, gerçek parsel çizgisi, 2B/3B kamera yaklaşımı ve harita lisansı.
+- `.opencode/skills/real-estate-film/SKILL.md`: emlak filmi senaryo, storyboard, sinematik kurgu ve yazı disiplini.
+- `.opencode/skills/turkish-voiceover/SKILL.md`: Türkçe anlatım, telaffuz, TTS lisansı ve ses miksajı.
+- `.opencode/skills/video-quality-gate/SKILL.md`: render öncesi/sonrası bloklayıcı kalite kontrolleri.
+
+Açık kaynak araç seçimi ve lisans envanteri için `docs/OPEN_SOURCE_TOOLCHAIN.md` okunmalıdır. Bu dosyalarda aday olarak belirtilen bir araç, sürüm/lisans/çıktı testi tamamlanmadan üretimde varsayılan kabul edilmez.
