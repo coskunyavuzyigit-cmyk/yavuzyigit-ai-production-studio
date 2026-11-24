@@ -79,3 +79,8 @@ Karakter kimliği, senaryo, Blender rig, AI animasyon ve kalite kontrol süreçl
 - [OpenCode Skills](.opencode/skills/)
 
 İlk karakter üretim adayı MPFB2 + Blender + CloudRig; AI destekli hareket için resmi ComfyUI Wan Animate workflow'u yalnızca deneysel adaptördür. Model/asset lisansları ve donanım gereksinimleri doğrulanmadan üretim bağımlılığı yapılmaz.
+
+
+## Seçilen açık kaynak teknoloji yığını
+
+Stüdyo için rol bazlı seçilmiş araçlar, lisans riskleri, entegrasyon sırası ve kabul testleri: [Açık Kaynak Stack Kararı](docs/OPEN_SOURCE_STACK_DECISION.md). Uygulama becerisi: [Stüdyo Pipeline Orkestrasyonu](.opencode/skills/studio-pipeline-orchestration/SKILL.md).
